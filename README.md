@@ -45,7 +45,7 @@ prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(data)
 print(f"predicted value: {pre}")
-
+```
 ## Output:
 ![Screenshot 2024-11-21 092659](https://github.com/user-attachments/assets/654c1adf-17bb-4e65-a8ce-68bfca2a1abb)
 
